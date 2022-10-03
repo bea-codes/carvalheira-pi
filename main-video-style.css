@@ -1,0 +1,38 @@
+#wrapper-video{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+
+
+
+/*Ícones*/
+
+.container-icons-video{
+    display: flex;
+    flex-direction: column;
+
+}
+.icon-video{
+    height: 40px;
+    width: 40px;
+    background-color: #460273;
+    margin: 10px;
+    cursor: pointer;
+}
+
+
+/*Container Info*/
+
+#container-general-video{
+    border: 1px solid black;
+
+
+}
+
+#ingresso-btn-video{
+    cursor: pointer;
+}
