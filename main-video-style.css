@@ -6,7 +6,7 @@
     display: flex;
     flex-direction: row;
     font-family: 'Manrope';
-    background-color:rgba(250, 235, 215, 0.679);
+    background-color:rgba(72, 72, 72, 0.679);
     font-family: 'Manrope', 'Inter',sans-serif;
 }
 
@@ -23,6 +23,10 @@
 
 #container-general-video p{
     margin-left: 10%;
+    max-width: 400px;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    font-weight: 600;
 }
 
 
@@ -43,6 +47,9 @@
     display: flex;
     justify-content:center;
     min-width: 480px;
+    max-width: 700px;
+    min-height: 2.5rem;
+    max-height: 100px;
 }
 
 #header-box h1{
@@ -50,6 +57,7 @@
     font-size: 2rem;
     margin: auto;
 }
+
 
 
 /*Botão Ingresso*/
