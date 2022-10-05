@@ -8,22 +8,23 @@ body{
     display: flex;
     flex-direction: row;
     font-family: 'Manrope';
-    background-color:rgba(72, 72, 72, 0.679);
     font-family: 'Manrope', 'Inter',sans-serif;
-    position: fixed;
+    position: absolute;
     z-index: 0;
+    margin-top: 5%;
+    margin-left: 5%;
     
 }
 
 /*Video de fundo*/
 #video-carvalheira{
-    position: relative;
+    position: absolute;
     min-width: 100%;
     min-height: 720px;
     right: 0;
     bottom: 0;
     top: 0;
-    z-index: -1;
+    z-index: -100;
 
 }
 
@@ -32,7 +33,6 @@ body{
 /*Container Info*/
 
 #container-general-video{
-    border: 1px solid black;
     padding: 0% 2%;
     width: 40%;
     min-width: 400px;
