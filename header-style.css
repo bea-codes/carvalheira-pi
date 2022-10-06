@@ -1,0 +1,82 @@
+
+body{
+    font-family: 'manrope', sans-serif;
+    background-color:#ffefef;
+    display: inline-block;
+    height: 2000px;
+    width: 100vw;
+    margin: 0;
+}
+
+
+header{
+    display: flex;
+    background-color: #080808;
+    flex-direction: row; 
+    align-items: center;
+    width: 100vw;
+    overflow-x: hidden; /*Isso aqui é só um teste!*/
+    height: 95px;
+}
+
+.header-content{
+    display: flex;
+}
+
+.logo{
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+img{
+    width: 80%;
+    height: 80%;
+}
+a{
+    width: 132px;
+    height: 22px;
+}
+
+li{
+    color: aliceblue;
+    font-family: 'manrope', sans-serif;
+
+    display: inline-block;
+    padding-right: 100px;
+    height: 16px;
+    width: 52px;
+    padding-left: 10px;
+    padding-top: 0px;
+    font-size: 16px;
+    font-size: medium;
+}
+
+
+li:hover{
+    background-color:#080808;
+    color: #da4f9b;
+    transition: 0.4 all;
+}
+
+span{
+    color:aliceblue;
+    background-color: #da4f9b;
+    font-family: 'manrope', sans-serif;
+    font-weight: 300;
+    display: inline; 
+    padding: 7px;   
+    padding-inline: 55px;
+    font-weight: bold;
+    margin-left: 50px;
+   
+}
+
+
+
+span:hover{
+    color: #da4f9b;
+    background-color:aliceblue;
+    transition: 0.4 all;
+}
+

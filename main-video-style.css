@@ -1,9 +1,8 @@
 /*Fonte 'Manrope' Google Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600&family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
 
-body{
-    height: 2000px;
-}
+
+
 #wrapper-video{
     display: flex;
     flex-direction: row;
@@ -13,6 +12,7 @@ body{
     z-index: 0;
     margin-top: 5%;
     margin-left: 5%;
+    background-color: rgb(108, 137, 128);
     
 }
 
